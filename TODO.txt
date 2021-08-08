@@ -1,0 +1,13 @@
+Dividir o código em cinco partes:
+A primeira parte é fazer o cenário do mapa do War.
+A segunda parte é fazer as batalhas entre os jogadores.
+A terceira parte é fazer os objetivos/final do jogo.
+A quarta parte é para checar e completar o que falta, tudo menos a IA.
+A quinta parte é fazer a IA.
+Deixar a IA por último porque se não der tempo para terminar o código, pelo menos, o jogo vai estar completo, o que é melhor que ter o jogo pela metade com IA pela metade.
+
+1. A parte do cenário:
+1.1 Fazer a movimentação da câmera: A tela tem um tamanho fixo e o mapa do jogo ficará maior que a tela, então precisa ser feito uma câmera que o jogador pode deslizar pelo mapa usando o mouse, então precisamos ver como aceitar input do mouse e fazer a movimentação da câmera.
+1.2 Fazer as estruturas de dados pro mapa: O mapa do jogo vai ser dividido em continentes e cada continente suas respectivas regiões, precisa ser feita uma estrutura de dados para organizar os dados do mapa
+1.3 Fazer a caixa de colisão em cada região: Com a estrutura de dados pronta, precisa ser feito uma caixa de colisão dentro da área do mapa (fazer um só para testar e depois fazer um para cada região).
+1.4 Fazer click do jogador no mapa: Inicialmente fazer só 1 jogador para testar se a caixa de colisão funciona e o jogador está clicando onde deveria.
